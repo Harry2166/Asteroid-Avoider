@@ -11,6 +11,7 @@ public class GameOverScreen : MonoBehaviour
 
     public void RestartButton(){
         SceneManager.LoadScene("stage");
+        Time.timeScale = 1f;
     }
 
     public void ExitButton(){

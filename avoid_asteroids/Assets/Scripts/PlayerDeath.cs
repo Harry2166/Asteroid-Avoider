@@ -37,6 +37,8 @@ public class PlayerDeath : MonoBehaviour
     public void GameOver(){
         Dead();
         GameOverScreen.Setup();
+        Time.timeScale = 0f;
+
     }
 
 }
